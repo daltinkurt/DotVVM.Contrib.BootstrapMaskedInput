@@ -17,7 +17,7 @@ namespace DotVVM.Contrib.BootstrapMaskedInput
             {
                 Assembly = typeof(BootstrapMaskedInput).Assembly.GetName().Name,
                 Namespace = typeof(BootstrapMaskedInput).Namespace,
-                TagPrefix = "da"
+                TagPrefix = "dc"
             });
 
             config.Resources.Register("dotvvm.contrib.BootstrapMaskedInput", new ScriptResource()
